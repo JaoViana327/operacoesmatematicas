@@ -13,9 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    - name: compile
+      run: gcc operacoesmatematicas_test.c -o operacoesmatematicas_test
+    - name: run
+      run: ./operacoesmatematicas_test
