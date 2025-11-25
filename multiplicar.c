@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int multiplicar(int numero1, int numero2, int contador1, int contador2, int produto){
-     contador1 = 0;
-    contador2 = 0;
-    produto = 0;
+int multiplicar(int numero1, int numero2){
+     int contador1 = 0;
+     int contador2 = 0;
+     int produto = 0;
 
     while (contador1 < numero1){
         contador2 = 0;
